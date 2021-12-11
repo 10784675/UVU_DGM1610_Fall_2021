@@ -6,14 +6,13 @@ public class PlayerController : MonoBehaviour
 {
     public float horizontalInput;
     public float speed = 10.0f;
-    public float xRange = 10.0f;
-    private Rigidbody playerRb;
+    public float xRange = 60.0f;
 
     public GameObject projectilePrefab;
 
     void Start()
     {
-        playerRb = GetComponent<Rigidbody>();
+
     }
 
     void Update()
